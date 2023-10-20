@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  # Define the app service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # Mount the src directory from the host to the /app/src directory in the container
+      - ./src:/app/src
+    ports:
+      # Map port 3000 on the host to port 3000 in the container
+      - "3000:3000"

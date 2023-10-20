@@ -1,0 +1,84 @@
+/* Main container for the app */
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* CSS class for the login button */
+.login {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 300px;
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* CSS class for the logout button */
+.logout {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 300px;
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* CSS class for a div that changes color */
+.divChongeColor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS class for an input that changes color */
+.inputChongeColor {
+  width: 300px;
+  height: 60px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  background-color: gray;
+  font-size: larger;
+}
+
+/* CSS class for a button that changes color */
+.colorButton {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}

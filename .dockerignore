@@ -1,0 +1,25 @@
+# List of files and directories to be ignored
+IGNORED_FILES = [
+    "node_modules",     # External dependencies
+    "npm-debug.log",    # NPM log file
+    "Dockerfile",       # Docker configuration file
+    ".dockerignore"     # Docker ignore file
+]
+
+# Dockerfile contents
+DOCKERFILE = """
+# Instructions for building a Docker image
+"""
+
+# Docker ignore file contents
+DOCKERIGNORE = """
+# Files to be ignored by Docker
+"""
+
+# Main function
+def main():
+    # Add your code here
+
+# Call the main function
+if __name__ == "__main__":
+    main()
